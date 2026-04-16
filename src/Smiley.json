@@ -1,0 +1,130 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "defconstructor",
+        "id": "1Up+[WqHLN.wv^?M}pi)",
+        "x": 59,
+        "y": -416,
+        "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\"><arg name=\"double x\" varid=\"?I4tv|QPGZ}Xi?XcGo1Z\"></arg><arg name=\"double y\" varid=\"`@6RZXZJy.=|0(ZrR*~k\"></arg></mutation>"
+      },
+      {
+        "type": "java_method_noreturn",
+        "id": "WG40p;}NCzf49yi2ubXv",
+        "x": 58,
+        "y": -324,
+        "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\"><arg name=\"double dx\" varid=\"`J`f%V#FLRL]LJPvc!C^\"></arg><arg name=\"double dy\" varid=\"uAX+SyGe%6ML#JyZWSDQ\"></arg></mutation>",
+        "fields": {
+          "NAME": "bewegen"
+        }
+      },
+      {
+        "type": "java_method_return",
+        "id": "87Nt38Q.AgshQgH%9YUe",
+        "x": 61,
+        "y": -136,
+        "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\"></mutation>",
+        "fields": {
+          "NAME": "randErreicht"
+        },
+        "inputs": {
+          "STACK": {
+            "block": {
+              "type": "java_local_var_set",
+              "id": "J[s0yg^pwpvBwrddm%Xq",
+              "fields": {
+                "VAR": {
+                  "id": "K|rz=f{;icills0X5Qmd"
+                }
+              },
+              "inputs": {
+                "VALUE": {
+                  "block": {
+                    "type": "logic_boolean",
+                    "id": "O;%FG,BT_@$TGZ9JWY_^",
+                    "fields": {
+                      "BOOL": "FALSE"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "RETURN": {
+            "block": {
+              "type": "java_local_var_get",
+              "id": "4Kw5`o=U.apGbhR;I#{H",
+              "fields": {
+                "VAR": {
+                  "id": "K|rz=f{;icills0X5Qmd"
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "java_method_noreturn",
+        "id": "{2s,n26lsY:Evco/0Lm~",
+        "x": 56,
+        "y": -229,
+        "extraState": "<mutation xmlns=\"http://www.w3.org/1999/xhtml\"></mutation>",
+        "fields": {
+          "NAME": "rumfliegen"
+        }
+      }
+    ]
+  },
+  "variables": [
+    {
+      "name": "kopf",
+      "id": "B=Yh618mU~$om!!Beroe"
+    },
+    {
+      "name": "augeL",
+      "id": "Ss~cX9SLL9;zG+HpaV5~"
+    },
+    {
+      "name": "augeR",
+      "id": "}!okr$)/iDKa/}AfR6J?"
+    },
+    {
+      "name": "mund",
+      "id": "96U;,HC{X~YE=;Z=oCBr"
+    },
+    {
+      "name": "speedX",
+      "id": ".,!Rz.ucjl]xof_qk{mv"
+    },
+    {
+      "name": "speedY",
+      "id": "/engPgj`6t/.%%fGa%eE"
+    },
+    {
+      "name": "ergebnis",
+      "id": "K|rz=f{;icills0X5Qmd",
+      "type": "local"
+    },
+    {
+      "name": "double x",
+      "id": "?I4tv|QPGZ}Xi?XcGo1Z",
+      "type": "param"
+    },
+    {
+      "name": "double y",
+      "id": "`@6RZXZJy.=|0(ZrR*~k",
+      "type": "param"
+    },
+    {
+      "name": "double dy",
+      "id": "uAX+SyGe%6ML#JyZWSDQ",
+      "type": "param"
+    },
+    {
+      "name": "double dx",
+      "id": "`J`f%V#FLRL]LJPvc!C^",
+      "type": "param"
+    }
+  ]
+}
