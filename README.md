@@ -7,8 +7,6 @@ Die Main-Methode enthält bereits etwas Code, damit du deine Änderungen direkt 
 
 ---
 
-[task][Strukturtests]()
-Hier siehst du, ob du schon alle Methodenköpfe und Attribute richtig deklariert hast. Manches ist bereits in der Vorlage fertig, anderes machst du erst später.
 
 (Das Klassendiagramm gibt es nur auf Artemis.)
 
@@ -17,7 +15,7 @@ Hier siehst du, ob du schon alle Methodenköpfe und Attribute richtig deklariert
 
 
 ### Smiley Konstruktor erstellen
-[task][Konstruktor]()
+
 
 - Speichere im Konstruktor zunächst die Startwerte für die beiden Geschwindigkeiten: jeweils 10
 - Erstelle einen Smiley aus einem Kreis als Kopf, zwei kleinen Kreisen als Augen (`augeL`, `augeR`) und einer Ellipse als Mund.
@@ -27,7 +25,6 @@ Hier siehst du, ob du schon alle Methodenköpfe und Attribute richtig deklariert
 
 
 ### Alles Bewegen
-[task][Bewegen]()
 Zum Bewegen wird die Methode `bewegen()` aufgerufen (was eine Überraschung) und Werte für die Veränderung von x- und y-Koordinate übergeben.
 - Programmiere die Methode so, dass alle in Referenz-Attributen gespeicherten Formen, anhand dieser Werte bewegt werden. *Tipp:* Es gibt extra einen bewegen Block für geometrische Objekte.
 
@@ -35,14 +32,12 @@ Zum Bewegen wird die Methode `bewegen()` aufgerufen (was eine Überraschung) und
 
 
 ### Rausgeflogen
-[task][RandErreicht]()
 Um herauszufinden, ob der Smiley die Welt verlässt, schreiben wir die Methode `randErreicht()`. Sie gibt einen Wahrheitswert zurück, ob die Mitte des Smileys den Rand der Welt erreicht hat.
 - *Tipp*: Die Blöcke aus der Kategorie 'Getter' helfen dir hier.
 
 
 
 ### Rumfliegen
-[task][Rumfliegen]()
 Die Methode rumfliegen soll dafür sorgen, dass ein Smiley, der aus der Welt fliegt, umdreht und wieder zurückkommt.
 - Programmiere die Methode dafür so, dass überprüft wird, ob der Smiley den Rand erreicht hat (*Tipp:* dafür hast du eben eine Methode geschrieben) und anschließend entschieden wird, ob die Geschwindigkeit verändert werden muss, bevor `bewegen()` aufgerufen wird.
 
